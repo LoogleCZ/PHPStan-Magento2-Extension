@@ -1,0 +1,31 @@
+{
+    "name": "looglecz/phpstan-magento2-extension",
+    "description": "Get best of PHPStan with respect to some Magento2 specialities",
+    "type": "phpstan-extension",
+    "require": {
+        "phpstan/extension-installer": "^1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Looglecz\\PhpstanMagento2Extension\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Martin Fabík",
+            "email": "mar.fabik@gmail.com"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "phpstan/extension-installer": true
+        }
+    },
+    "extra": {
+        "phpstan": {
+            "includes": [
+                "extension.neon"
+            ]
+        }
+    }
+}
