@@ -1,4 +1,7 @@
 parameters:
+	stubFiles:
+		- ./stubs/Magento/Framework/View/LayoutInterface.stub
+		- ./stubs/Magento/Rule/Model/Condition/AbstractCondition.stub
 	ignoreErrors:
 		-
 			message: '#^Method [a-zA-Z0-9\\_]+\\Plugin\\[a-zA-Z0-9\\_]+\:\:(before|after|around)[a-zA-Z0-9_-]+\(\) has parameter \$[a-zA-Z0-9_-]* with no type specified#'

@@ -1,0 +1,16 @@
+<?php
+
+namespace Magento\Framework\View;
+
+interface LayoutInterface {
+    /**
+     * @template T
+     *
+     * @param class-string<T> $type
+     * @param string $name
+     * @param array<mixed, mixed> $arguments
+     *
+     * @return T
+     */
+    public function createBlock($type, $name = '', array $arguments = []);
+}
