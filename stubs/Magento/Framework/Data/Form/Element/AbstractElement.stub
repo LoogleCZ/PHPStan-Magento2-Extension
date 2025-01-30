@@ -1,0 +1,5 @@
+<?php
+
+namespace Magento\Framework\Data\Form\Element;
+
+abstract class AbstractElement {}

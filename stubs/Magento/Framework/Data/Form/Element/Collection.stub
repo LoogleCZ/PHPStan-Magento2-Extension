@@ -1,0 +1,13 @@
+<?php
+
+namespace Magento\Framework\Data\Form\Element;
+
+class Collection {
+    /**
+     * Find element by ID
+     *
+     * @param mixed $elementId
+     * @return AbstractElement|null
+     */
+    public function searchById($elementId) {}
+}
