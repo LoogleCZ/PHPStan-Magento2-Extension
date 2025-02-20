@@ -1,0 +1,10 @@
+<?php
+
+namespace Magento\Quote\Model\Quote\Item;
+
+abstract class AbstractItem {
+    /**
+     * @return \Magento\Quote\Model\Quote\Item|null
+     */
+    public function getParentItem() {}
+}
