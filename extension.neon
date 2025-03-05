@@ -7,6 +7,7 @@ parameters:
 		- ./stubs/Magento/Framework/Exception/LocalizedException.stub
 		- ./stubs/Magento/Framework/Data/Form/Element/AbstractElement.stub
 		- ./stubs/Magento/Framework/Data/Form/Element/Collection.stub
+		- ./stubs/Magento/Framework/Data/OptionSourceInterface.stub
 		- ./stubs/Magento/Eav/Setup/EavSetup.stub
 		- ./stubs/Magento/Quote/Model/Quote/Item/AbstractItem.stub
 		- ./stubs/Magento/Quote/Model/Quote/Item.stub
