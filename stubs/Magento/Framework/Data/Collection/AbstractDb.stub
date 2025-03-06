@@ -1,0 +1,25 @@
+<?php
+
+namespace Magento\Framework\Data\Collection;
+
+use Magento\Framework\Data\Collection;
+
+/**
+ * @template T of \Magento\Framework\DataObject
+ *
+ * @extends Collection<T>
+ */
+abstract class AbstractDb extends Collection {
+    /**
+     * @param T $item
+     *
+     * @return T
+     */
+    protected function beforeAddLoadedItem(\Magento\Framework\DataObject $item) {}
+
+    /**
+     * @return  T|bool
+     */
+    public function fetchItem() {}
+}
+

@@ -11,6 +11,12 @@ parameters:
 		- ./stubs/Magento/Eav/Setup/EavSetup.stub
 		- ./stubs/Magento/Quote/Model/Quote/Item/AbstractItem.stub
 		- ./stubs/Magento/Quote/Model/Quote/Item.stub
+		- ./stubs/Magento/Framework/Api/SearchResultsInterface.stub
+		- ./stubs/Magento/Framework/Api/SearchResults.stub
+		- ./stubs/Magento/Framework/DataObject.stub
+		- ./stubs/Magento/Framework/Model/ResourceModel/Db/Collection/AbstractCollection.stub
+		- ./stubs/Magento/Framework/Data/Collection/AbstractDb.stub
+		- ./stubs/Magento/Framework/Data/Collection.stub
 	ignoreErrors:
 		-
 			message: '#^Method [a-zA-Z0-9\\_]+\\Plugin\\[a-zA-Z0-9\\_]+\:\:(before|after|around)[a-zA-Z0-9_-]+\(\) has parameter \$[a-zA-Z0-9_-]* with no type specified#'

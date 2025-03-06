@@ -1,0 +1,60 @@
+<?php
+
+namespace Magento\Framework\Data;
+
+use Magento\Framework\DataObject;
+
+/**
+ * @template T of \Magento\Framework\DataObject
+ */
+class Collection {
+    /**
+     * @return T
+     */
+    public function getFirstItem() {}
+
+    /**
+     * @return T
+     */
+    public function getLastItem() {}
+
+    /**
+     * @return T[]
+     */
+    public function getItems() {}
+
+    /**
+     * @param string $column
+     * @param mixed $value
+     *
+     * @return T[]
+     */
+    public function getItemsByColumnValue($column, $value) {}
+
+    /**
+     * @param string $column
+     * @param mixed $value
+     *
+     * @return T|null
+     */
+    public function getItemByColumnValue($column, $value) {}
+
+
+    /**
+     * @param T $item
+     * @return $this
+     * @throws \Exception
+     */
+    public function addItem(DataObject $item) {}
+
+    /**
+     * @return T
+     */
+    public function getNewEmptyItem() {}
+
+    /**
+     * @param string|int $idValue
+     * @return T
+     */
+    public function getItemById($idValue) {}
+}

@@ -1,0 +1,13 @@
+<?php
+
+namespace Magento\Framework\Model\ResourceModel\Db\Collection;
+
+use Magento\Framework\Data\Collection\AbstractDb;
+
+/**
+ * @template T of \Magento\Framework\DataObject
+ * @extends AbstractDb<T>
+ */
+class AbstractCollection extends AbstractDb {
+
+}

@@ -1,0 +1,18 @@
+<?php
+
+namespace Magento\Framework\Api;
+
+interface SearchResultsInterface
+{
+    /**
+     * @return \Magento\Framework\DataObject[]
+     */
+    public function getItems();
+
+    /**
+     * @param \Magento\Framework\DataObject[] $items
+     *
+     * @return static
+     */
+    public function setItems(array $items);
+}
